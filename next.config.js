@@ -6,9 +6,10 @@ const nextConfig = {
   trailingSlash: true,     // Ensures correct paths in static export
   images: {
     loader: 'default',
+    unoptimized: true,     // Required for static export on GitHub Pages
   },
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio/',
 };
 
 module.exports = nextConfig;
