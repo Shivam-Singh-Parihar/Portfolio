@@ -3,11 +3,12 @@ const nextConfig = {
   output: 'export',        // Enables static HTML export
   reactStrictMode: true,
   swcMinify: true,
+  trailingSlash: true,     // Ensures correct paths in static export
   images: {
     loader: 'default',
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio',
 };
 
 module.exports = nextConfig;
