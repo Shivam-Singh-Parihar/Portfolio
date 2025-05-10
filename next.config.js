@@ -9,7 +9,7 @@ const nextConfig = {
     unoptimized: true,     // Required for static export on GitHub Pages
   },
   basePath: '/portfolio',
-  assetPrefix: 'portfolio/',
+  assetPrefix: 'portfolio',
 };
 
 module.exports = nextConfig;
