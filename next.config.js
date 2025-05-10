@@ -8,8 +8,8 @@ const nextConfig = {
     loader: 'default',
     unoptimized: true,     // Required for static export on GitHub Pages
   },
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio/',
+  basePath: '/portfolio',
+  assetPrefix: 'portfolio/',
 };
 
 module.exports = nextConfig;
