@@ -1,15 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',        // Enables static HTML export
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: true,     // Ensures correct paths in static export
+  trailingSlash: true,
   images: {
     loader: 'default',
-    unoptimized: true,     // Required for static export on GitHub Pages
+    unoptimized: true,
   },
   basePath: '/portfolio',
-  assetPrefix: 'portfolio/',
+  assetPrefix: '/portfolio/',
 };
 
 module.exports = nextConfig;
